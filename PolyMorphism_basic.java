@@ -1,7 +1,7 @@
 
 package polymorphism_basic;
 
-//polymorphism--ekta object bivinnorup daron kore
+//polymorphism--ekta object bibin-norup daron kore
 public class PolyMorphism_basic {
 
     public static void main(String[] args) {
