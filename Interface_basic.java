@@ -1,4 +1,6 @@
 
+
+
 package interface_basic;
 
 ///interface we can say as example as music player ..when we play music it will run the program..when we want
@@ -40,5 +42,19 @@ public class Interface_basic implements MusicPlayer {
     public void play(int id) {
         
     }
+    
+}
+
+
+//now create a new class named it MusicPlayer
+
+public interface MusicPlayer {
+    ///if the class are interface then it will 100% abstruct class
+    
+    public void play(int id);
+    public void pause();
+    public void stop();
+    public void back();
+    
     
 }
