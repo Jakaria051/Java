@@ -1,3 +1,5 @@
+
+
 package list_arraylist_and_vector;
 
 import java.util.ArrayList;
@@ -38,6 +40,10 @@ public class List_ArrayList_and_Vector {
         int intexofjakaria = person.indexOf("jakaria");
         
         System.out.println("intexofjakaria : "+intexofjakaria);
+        
+         ///collection sort
+        Collections.sort(person);
+        System.out.println("Name of person after sorting:"+person);
         
         
         //VectorTest
